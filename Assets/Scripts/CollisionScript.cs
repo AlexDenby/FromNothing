@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using System.Collections;
 
 public class CollisionScript : MonoBehaviour {
@@ -25,4 +25,4 @@ public class CollisionScript : MonoBehaviour {
                 }
             }
         }
-    }
+    }*/
