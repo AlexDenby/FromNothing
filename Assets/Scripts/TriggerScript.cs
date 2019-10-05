@@ -42,7 +42,6 @@ public class TriggerScript : MonoBehaviour
             Debug.Log("entered");
         }
     }
-
     // stayCount allows the OnTriggerStay to be displayed less often
     // than it actually occurs.
     private float stayCount = 0.0f;

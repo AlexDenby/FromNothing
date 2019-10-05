@@ -6,7 +6,6 @@ public class CollisionScript : MonoBehaviour {
     public void FadeMe(){
         StartCoroutine (DoFade());
     }
-
     void OnCollisionEnter()
     {
         Debug.log(Collided);
