@@ -22,8 +22,8 @@ public class ProgressionHandler : MonoBehaviour
     public void Kill()
     {
         GameObject Player = Players[i];
-        Player.transform.GetChild(0).enabled = true;
-        transform.parent.GetChild(0).gameObject.SetActive(true);
+        //Player.transform.GetChild(0).enabled = true;
+        //transform.parent.GetChild(0).gameObject.SetActive(true);
         //Player.transform.lookAt(FaceDeath);
         Player.SetActive(false);
 
