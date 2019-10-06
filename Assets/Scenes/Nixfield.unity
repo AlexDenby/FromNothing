@@ -19731,6 +19731,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
         type: 3}
+      propertyPath: path.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
+        type: 3}
       propertyPath: proximityThreshold
       value: 3
       objectReference: {fileID: 0}
@@ -19738,12 +19743,12 @@ PrefabInstance:
         type: 3}
       propertyPath: path.Array.data[0]
       value: 
-      objectReference: {fileID: 1757000488}
+      objectReference: {fileID: 1399448352}
     - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
         type: 3}
       propertyPath: path.Array.data[1]
       value: 
-      objectReference: {fileID: 1449918940}
+      objectReference: {fileID: 773303994}
     - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
         type: 3}
       propertyPath: path.Array.data[2]
@@ -23753,6 +23758,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
         type: 3}
+      propertyPath: path.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
+        type: 3}
       propertyPath: proximityThreshold
       value: 1
       objectReference: {fileID: 0}
@@ -23760,7 +23770,7 @@ PrefabInstance:
         type: 3}
       propertyPath: path.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1369344254}
     - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
         type: 3}
       propertyPath: path.Array.data[1]
@@ -37134,12 +37144,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754290242}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1757000488 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 995365825255070174, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
-    type: 3}
-  m_PrefabInstance: {fileID: 918775665}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1757000493 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995365825255070163, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
