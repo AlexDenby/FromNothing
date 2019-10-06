@@ -17,9 +17,4 @@ public class NewKillTrigger : MonoBehaviour
     {
         
     }
-
-    function OnCollisionEnter(col : Collision)
-    {
-
-    }
 }
