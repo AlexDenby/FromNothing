@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: cf5d6833fae2e5149bb9527ae6b016ea
+guid: 7f62060d4a817f14286d1fa4ebbe86c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3463552751092272020
-    second: construction_guy_1_front_0
+      213: -1097058770286479152
+    second: construction_guy_1_back_0
   - first:
-      213: 3426179795207411678
-    second: construction_guy_1_front_1
+      213: 1445643148581369121
+    second: construction_guy_1_back_1
   - first:
-      213: -3817951134526096102
-    second: construction_guy_1_front_2
+      213: -2997553204729850712
+    second: construction_guy_1_back_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -95,13 +95,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: construction_guy_1_front_0
+      name: construction_guy_1_back_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 76
-        width: 555
-        height: 998
+        x: 84
+        y: 100
+        width: 388
+        height: 975
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -109,20 +109,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c3f59f4a3b566e489665c2c57112286
-      internalID: -3463552751092272020
+      spriteID: c6658a6a5ff3b234e934ad4c3a1d36b0
+      internalID: -1097058770286479152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: construction_guy_1_front_1
+      name: construction_guy_1_back_1
       rect:
         serializedVersion: 2
-        x: 635
+        x: 574
         y: 87
-        width: 409
-        height: 987
+        width: 410
+        height: 988
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fdb3c73fb8608848a3a1686cc729c4d
-      internalID: 3426179795207411678
+      spriteID: c50f1303bc47ae742b710107a1488875
+      internalID: 1445643148581369121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: construction_guy_1_front_2
+      name: construction_guy_1_back_2
       rect:
         serializedVersion: 2
-        x: 1135
-        y: 92
-        width: 385
-        height: 982
+        x: 1023
+        y: 82
+        width: 554
+        height: 993
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21fdd7d946483684980719eea10d100c
-      internalID: -3817951134526096102
+      spriteID: 6006b16ff5503d147a20c97a1b87544d
+      internalID: -2997553204729850712
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c1e3dd236ca7de3449e0e571bd497d3b
+    spriteID: 015a723b5885d6a44be1662a874ff4e0
     internalID: 0
     vertices: []
     indices: 
