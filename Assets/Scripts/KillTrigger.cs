@@ -9,9 +9,9 @@ using System.Collections;
     void OnTriggerEnter(Collider col)
     {
 
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.name == "Player")
         {
-            Progression.GetComponent<ProgressionHandler>().Kill();
+            //Progression.GetComponent<ProgressionHandler>().Kill();
             //For stopping the same object
             //GetComponent<PlayerController>().enabled = false;
             //Destroy object
@@ -19,9 +19,9 @@ using System.Collections;
             //For stopping other object
             //GameObject.Find("GameObject").GetComponent<ProgressionHandler>().enabled = true;
             //Destroy(col.gameObject);
-            /*//For stopping other object
-            GameObject.Find("Player2").GetComponent<PlayerController>().enabled = false;
-            //Destroy object
+            //For stopping other object
+            GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
+            /*//Destroy object
             Destroy(col.gameObject);
             //For stopping other object
             GameObject.Find("Player3").GetComponent<PlayerController>().enabled = false;
@@ -35,13 +35,13 @@ using System.Collections;
             GameObject.Find("Player5").GetComponent<PlayerController>().enabled = false;
             //Destroy object
             Destroy(col.gameObject);
-            GameObject.Find("Canvas").GetComponent<Fade5>().enabled = true;
             */
+            GameObject.Find("Canvas").GetComponent<Fade5>().enabled = true;
             // Reference to the Prefab. Drag a Prefab into this field in the Inspector.
             //Instantiate(myPrefab, new Vector3(0, 0, 0), Quaternion.identity);
 
 
-        }      
+        }
 
     }
 }
