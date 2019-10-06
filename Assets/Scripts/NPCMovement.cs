@@ -10,6 +10,7 @@ public class NPCMovement : MonoBehaviour
 {
     public float speed = 3.0F;
     public float rotateSpeed = 3.0F;
+    public float proximityThreshold = 1.0F;
 
     public GameObject[] path = new GameObject[10];
     private int i = 0;
@@ -36,7 +37,7 @@ public class NPCMovement : MonoBehaviour
         {
             transform.LookAt(path[i].transform.position + temp);
         }
-        else if (Vector3.Distance(path[i].transform.position + temp, transform.position) > .75){
+        else if (Vector3.Distance(path[i].transform.position + temp, transform.position) > proximityThreshold){
             // Move forward / backward
             Vector3 forward = transform.TransformDirection(Vector3.forward);
             controller.SimpleMove(forward * speed);
