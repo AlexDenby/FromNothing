@@ -5,10 +5,12 @@ using System.Collections;
 {
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.name == "P0")
+        if (col.gameObject.name == "NPC")
         {
             Destroy(col.gameObject);
+            GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
         }
+        
     }
 }
 
