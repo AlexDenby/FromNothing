@@ -24,9 +24,9 @@ public class TitleTransition : MonoBehaviour
         }
 
         if (isSceneTrigger && !goingup && transform.position.y <= bound) {
-			SceneManager.LoadScene("Level0");
+			SceneManager.LoadScene("OpeningCutscene");
         } else if (isSceneTrigger && goingup && transform.position.y >= bound) {
-        	SceneManager.LoadScene("Level0");
+        	SceneManager.LoadScene("OpeningCutscene");
         }
     }
 
