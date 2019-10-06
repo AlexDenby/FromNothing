@@ -5037,6 +5037,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559349266}
   - component: {fileID: 559349267}
+  - component: {fileID: 559349268}
   m_Layer: 0
   m_Name: student1_front_1
   m_TagString: Untagged
@@ -5108,6 +5109,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &559349268
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559349265}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3f7c1642c360c214cb281660d6821955, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &581439920
 GameObject:
   m_ObjectHideFlags: 0
@@ -8243,6 +8263,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4932247650737813252}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &946180233
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946180228}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aebeb4778eecf02498f7ef446a7d727d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &962294465
 GameObject:
   m_ObjectHideFlags: 0
@@ -11050,6 +11089,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 995365825255070174, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 995365825255070163, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
         type: 3}
@@ -14200,6 +14244,25 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 995365824682387259}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1646640870
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646640869}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 33c9d80f48f9f634ebec2b956cfeb17e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1646640873 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 995365825255070163, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
@@ -16046,6 +16109,31 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827817670}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1827893861 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 995365825255070174, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
+    type: 3}
+  m_PrefabInstance: {fileID: 1329579218}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1827893866
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827893861}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1830394179
 GameObject:
   m_ObjectHideFlags: 0
@@ -19080,6 +19168,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
+        type: 3}
+      propertyPath: path.Array.data[0]
+      value: 
+      objectReference: {fileID: 1887220010}
+    - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
+        type: 3}
+      propertyPath: path.Array.data[1]
+      value: 
+      objectReference: {fileID: 511107145}
+    - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
+        type: 3}
+      propertyPath: path.Array.data[2]
+      value: 
+      objectReference: {fileID: 946180228}
+    - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1646640870}
     - target: {fileID: 995365825255070172, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
         type: 3}
       propertyPath: m_Sprite
@@ -19096,21 +19204,6 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
-        type: 3}
-      propertyPath: path.Array.data[0]
-      value: 
-      objectReference: {fileID: 1887220010}
-    - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
-        type: 3}
-      propertyPath: path.Array.data[1]
-      value: 
-      objectReference: {fileID: 511107145}
-    - target: {fileID: 995365825255070162, guid: aba99f2e2ea75f44f9fd7e0b012b1e10,
-        type: 3}
-      propertyPath: path.Array.data[2]
-      value: 
-      objectReference: {fileID: 946180228}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aba99f2e2ea75f44f9fd7e0b012b1e10, type: 3}
 --- !u!1001 &4932247650737813252
@@ -19186,6 +19279,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4981834867878838083, guid: 2d2d495d26992ea44b2116988f103fd6,
         type: 3}
+    - target: {fileID: 4932247651954383414, guid: f977a23d3857d8947829495ed8352226,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 946180233}
     - target: {fileID: 4932247651550858496, guid: f977a23d3857d8947829495ed8352226,
         type: 3}
       propertyPath: m_LocalPosition.z
